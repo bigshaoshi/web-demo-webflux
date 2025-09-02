@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: web-demo-webflux
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/aiimsm
+    username: admin
+    password: admin@12345
+  flyway:
+    enabled: true  # ??????????? Flyway
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
